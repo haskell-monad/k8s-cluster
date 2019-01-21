@@ -1,0 +1,3 @@
+# custom.yml 
+- name: 编辑/etc/resolv.conf
+  shell: 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'

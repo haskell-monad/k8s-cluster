@@ -1,0 +1,4 @@
+# exec custom
+- hosts: ssh-addkey
+  roles:
+  - custom

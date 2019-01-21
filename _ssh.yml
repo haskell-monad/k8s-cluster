@@ -1,0 +1,5 @@
+# exec ssh
+- hosts: ssh-addkey
+  gather_facts: no
+  roles:
+  - ssh
